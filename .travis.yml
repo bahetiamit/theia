@@ -109,7 +109,7 @@ notifications:
     on_success: change
     on_failure: always
     on_start: never
-jobs:
+jobs: 
   fast_finish: true
   include:
     - stage: test
